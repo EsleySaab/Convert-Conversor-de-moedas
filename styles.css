@@ -46,6 +46,12 @@ main {
   overflow-y: hidden;
 }
 
+@media (max-width: 26.875rem) {
+  & main {
+    width: fit-content;
+  }
+}
+
 form {
   background-color: #141534;
 
