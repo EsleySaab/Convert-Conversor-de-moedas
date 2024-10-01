@@ -78,10 +78,17 @@ select {
   border-radius: 0.5rem;
 
   background-color: #0e0f25;
-  padding: 1.25rem 1rem;
+  padding: 1.5rem 1rem;
 
   font-family: "Inter", sans-serif;
   font-size: 1rem;
+}
+
+@media (max-width: 26.875rem) {
+  & input,
+  select {
+    padding: 1.2rem 1.5rem;
+  }
 }
 
 select {
